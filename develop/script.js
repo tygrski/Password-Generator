@@ -28,7 +28,6 @@ if (passWordLength >= 8 && passWordLength <= 128) {
    if (confirmSpecialChar ) {
      characters += specialChar;
    };
-   
     if (!confirmLowCase &&  !confirmUpperCase && !confirmNums && !confirmSpecialChar) {
   alert("you select at least one type of character at minimum, try again");
   return "";  
